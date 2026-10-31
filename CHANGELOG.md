@@ -1,3 +1,10 @@
 # Changelog
 
-Es wurde noch keine Version von Omega Orbit veröffentlicht.
+## [0.2.0] - 2026-11-01
+
+- Omega Orbit öffnet sich per Tastenkürzel direkt am Mauszeiger.
+- Audio aus mehreren Quellen gleichzeitig aufnehmen und in einer Datei speichern.
+- Aufnahmeformat WAV oder MP3 in den Audio-Einstellungen oder direkt im Audio-Rad wählen.
+- Gespeicherte Aufnahmen über das Audio-Rad im Explorer finden.
+- Aufnahmeordner, Sprache, Radgröße und Windows-Start einstellen.
+- Updates direkt in Omega Orbit herunterladen und installieren.
