@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.6.1] - 2026-11-01
+
+- Fixed the layout when quickly adding files and apps.
+- Improved the jiggle animation and remove button in edit mode.
+
+## [0.6.0] - 2026-11-01
+
+- Dedicated sections for Bookmarks and Files: Alongside apps, you can now manage web bookmarks and files directly on the Orbit wheel and in settings, opening in your default browser or associated application.
+- Quick in-wheel management: Plus and minus controls in the wheel center allow fast item creation (including one-click paste from clipboard) or removal using an iOS-style jiggle edit mode.
+- Corrected app icons: Resolved authentic icons for Brave and the Windows Task Manager.
+
+## [0.5.9] - 2026-11-01
+
+- Enhanced download stats on the wheel: The center hub now shows real-time download speed, estimated remaining time, and transferred data volume alongside the percentage.
+
 ## [0.5.8] - 2026-11-01
 
 - Connected Orbit wheel tiles without gaps and smoothed transitions between descriptions.

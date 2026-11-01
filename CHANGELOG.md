@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.6.1] - 2026-11-01
+
+- Darstellung beim schnellen Hinzufügen von Dateien und Apps korrigiert.
+- Wackelanimation und Entfernen-Schaltfläche im Bearbeitungsmodus verbessert.
+
+## [0.6.0] - 2026-11-01
+
+- Eigene Bereiche für Lesezeichen und Dateien: Neben installierten Apps können nun auch Web-Lesezeichen und Dateien direkt im Orbit-Rad sowie in den Einstellungen verwaltet und im Standardbrowser bzw. der Standardanwendung geöffnet werden.
+- Schnelles Verwalten im Rad: Über ein Plus- und Minus-Symbol in der Radmitte können Elemente direkt angelegt (auch per Klick aus der Zwischenablage) oder im iOS-Wackelmodus per Lösch-Knopf entfernt werden.
+- Symboldarstellung korrigiert: Das echte Programmsymbol von Brave sowie das authentische Aktivitätssymbol des Windows Task-Managers werden nun zuverlässig angezeigt.
+
+## [0.5.9] - 2026-11-01
+
+- Erweiterte Download-Anzeige im Rad: Die Radmitte zeigt während des Updates neben Prozentwerten nun auch die aktuelle Download-Geschwindigkeit, die verbleibende Restzeit und das übertragene Datenvolumen live an.
+
 ## [0.5.8] - 2026-11-01
 
 - Kacheln im Orbit-Rad lückenlos verbunden und den Wechsel der Beschriftung geglättet.
