@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.0] - 2026-11-01
+
+- Fortschritt beim Umwandeln und Speichern von Aufnahmen anzeigen.
+- Fehler beim mehrfachen Beenden einer Aufnahme behoben.
+- Updates direkt über das Orbit-Rad prüfen und herunterladen.
+- Audio-Einstellungen übersichtlicher gestaltet und Hilfe und Protokoll ergänzt.
+- Fehler beim Windows-Autostart behoben.
+
 ## [0.2.0] - 2026-11-01
 
 - Omega Orbit öffnet sich per Tastenkürzel direkt am Mauszeiger.
