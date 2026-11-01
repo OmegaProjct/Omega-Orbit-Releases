@@ -1,5 +1,50 @@
 # Changelog
 
+## [0.5.8] - 2026-11-01
+
+- Kacheln im Orbit-Rad lückenlos verbunden und den Wechsel der Beschriftung geglättet.
+- Feedback-Versand und Schutz persönlicher Angaben in Protokollen verbessert.
+- Fehler beim erneuten Start abgebrochener Update-Downloads behoben.
+- App-Starter für Skripte verbessert.
+
+## [0.5.7] - 2026-11-01
+
+- Rad-Verschiebung bei Windows-Skalierung stabilisiert.
+- Update-Downloads und Feedback-Übermittlung zuverlässiger gemacht.
+- Fehlererkennung beim App-Start verbessert und Changelogs in der App ergänzt.
+
+## [0.5.6] - 2026-11-01
+
+- Download-Fortschritt nach dem Schließen des Update-Fensters im Rad anzeigen.
+- Automatische Update-Prüfung beim Öffnen des Rads und im Hintergrund ergänzt.
+
+## [0.5.5] - 2026-11-01
+
+- Verschieben und Andocken des Rads sowie Monitorwechsel verbessert.
+- App-Starter in den Einstellungen übersichtlicher gemacht.
+
+## [0.5.4] - 2026-11-01
+
+- Originale Windows-Programmsymbole für den App-Starter ergänzt.
+- Update-Hinweise und Zusammenspiel von Rad und Einstellungen verbessert.
+
+## [0.5.3] - 2026-11-01
+
+- Blättern über die Radmitte, App-Umbenennung und weitere Darstellungsoptionen ergänzt.
+
+## [0.5.2] - 2026-11-01
+
+- Verschieben des Rads, Positionierung und Dateiauswahl für Apps ergänzt und verbessert.
+
+## [0.5.1] - 2026-11-01
+
+- Fehler beim Start des App-Starters behoben.
+
+## [0.5.0] - 2026-11-01
+
+- App-Starter, mehrere Radseiten und anpassbare Kachelanzahl ergänzt.
+- Sitzungsprotokolle und Feedback-Bereich hinzugefügt.
+
 ## [0.4.2] - 2026-11-01
 
 - Neues Omega-Orbit-Symbol für Anwendung und Infobereich ergänzt.

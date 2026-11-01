@@ -1,5 +1,50 @@
 # Changelog
 
+## [0.5.8] - 2026-11-01
+
+- Connected Orbit wheel tiles without gaps and smoothed transitions between descriptions.
+- Improved feedback submission and privacy in diagnostic logs.
+- Fixed restarting an update download after cancellation.
+- Improved the app launcher for scripts.
+
+## [0.5.7] - 2026-11-01
+
+- Stabilized wheel dragging under Windows scaling.
+- Made update downloads and feedback submission more reliable.
+- Improved app launch error reporting and added changelogs to the app.
+
+## [0.5.6] - 2026-11-01
+
+- Show download progress on the wheel after closing the update window.
+- Added automatic update checks when opening the wheel and in the background.
+
+## [0.5.5] - 2026-11-01
+
+- Improved wheel dragging, docking and transitions between displays.
+- Made the app launcher in settings easier to navigate.
+
+## [0.5.4] - 2026-11-01
+
+- Added original Windows application icons to the app launcher.
+- Improved update notifications and interaction between the wheel and settings.
+
+## [0.5.3] - 2026-11-01
+
+- Added paging from the wheel center, app renaming and more display options.
+
+## [0.5.2] - 2026-11-01
+
+- Added and improved wheel dragging, positioning and app file selection.
+
+## [0.5.1] - 2026-11-01
+
+- Fixed an app launcher startup error.
+
+## [0.5.0] - 2026-11-01
+
+- Added the app launcher, multiple wheel pages and configurable tile counts.
+- Added session logs and a feedback section.
+
 ## [0.4.2] - 2026-11-01
 
 - Added the new Omega Orbit icon for the application and notification area.
