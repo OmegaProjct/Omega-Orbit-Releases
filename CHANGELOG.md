@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.4.0] - 2026-11-01
+
+- Neues Update-Fenster direkt über das Orbit-Rad öffnen.
+- Versionshinweise während und nach dem Herunterladen übersichtlicher anzeigen.
+- Update-Ansicht in den Einstellungen verbessert.
+
 ## [0.3.0] - 2026-11-01
 
 - Fortschritt beim Umwandeln und Speichern von Aufnahmen anzeigen.
