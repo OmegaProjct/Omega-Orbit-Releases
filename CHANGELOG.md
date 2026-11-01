@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.4.1] - 2026-11-01
+
+- Fortschritt beim Herunterladen, Umwandeln und Speichern direkt am Rand des Orbit-Rads anzeigen.
+
 ## [0.4.0] - 2026-11-01
 
 - Neues Update-Fenster direkt über das Orbit-Rad öffnen.
