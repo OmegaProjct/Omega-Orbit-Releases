@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.4.2] - 2026-11-01
+
+- Neues Omega-Orbit-Symbol für Anwendung und Infobereich ergänzt.
+
 ## [0.4.1] - 2026-11-01
 
 - Fortschritt beim Herunterladen, Umwandeln und Speichern direkt am Rand des Orbit-Rads anzeigen.
