@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.8.4] - 2026-11-02
+
+#### Added
+- **Orbital Camera Blob on the Orbit Wheel**: The live camera preview now docks directly onto the Orbit wheel and can be freely rotated 360° around the wheel using mouse drag-and-drop.
+- **Customizable Camera Shapes (16:9 or Circle)**: The camera blob can be switched between a widescreen 16:9 rounded rectangle and a compact circular shape.
+- **Wheel Collapse Mode**: Clicking "Close" collapses the main Orbit wheel while keeping only the camera preview floating on the desktop.
+- **Hide Camera Blob in Screen Recordings**: When "Hide Orbit from screen recordings" is enabled, the docked camera preview is also invisible in the recorded output.
+
+#### Fixed
+- **Recording Aborts with Camera and Screen Capture**: Resolved camera device exclusivity conflicts ("Device in use") and subsequent FFmpeg terminations (SIGTERM) when starting recordings.
+- **Window Shifting with Discord and Spotify**: Maximized application windows now keep their full screen size and position instead of being de-maximized and shifted 10% downwards and sideways.
+
 ## [0.8.3] - 2026-11-02
 
 #### Added

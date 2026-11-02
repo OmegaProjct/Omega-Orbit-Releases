@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.8.4] - 2026-11-02
+
+#### Hinzugefügt
+- **Orbitaler Kamera-Blob am Orbit-Rad**: Die Live-Kameravorschau dockt nun direkt am Orbit-Rad an und kann mit der Maus stufenlos 360° um das Rad herum positioniert werden.
+- **Wählbare Kameraform (16:9 oder Kreis)**: Der Kamera-Blob kann wahlweise im 16:9-Kinoformat oder als kompakter runder Kreis angezeigt werden.
+- **Einklapp-Modus für das Orbit-Rad**: Ein Klick auf „Schließen“ blendet das Rad aus und lässt auf Wunsch nur die schwebende Kamera auf dem Desktop zurück.
+- **Kamerabild in Bildschirmaufnahmen verbergen**: Ist „Orbit in Bildschirmaufnahmen ausblenden“ aktiv, bleibt auch der angedockte Kamera-Blob für die Aufnahme unsichtbar.
+
+#### Behoben
+- **Aufnahmeabbrüche bei Kamera- und Bildschirmaufnahme**: Konflikte beim gleichzeitigen Zugriff auf die Webcam („Device in use“) und daraus resultierende FFmpeg-Abbrüche (SIGTERM) wurden vollständig behoben.
+- **Unerwünschte Fensterverschiebung bei Discord und Spotify**: Maximierte Anwendungsfenster behalten ihre Vollbild-Position und werden beim Klick im Orbit-Rad nicht mehr um 10 % nach unten und zur Seite verschoben.
+
 ## [0.8.3] - 2026-11-02
 
 #### Hinzugefügt
