@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.8.2] - 2026-11-02
+
+#### Added
+- **Bring running apps to the foreground**: Clicking an already running application on the Orbit wheel (such as Spotify or Discord) now immediately restores and focuses its existing window instead of launching a duplicate instance.
+
+#### Changed
+- **Always hide wheel on app launch**: Launching an application from the Orbit wheel now hides the wheel across all close modes, including when "Stay open" is active.
+
+#### Fixed
+- **Missing app icons in the app launcher**: Fixed missing icons for Microsoft Store apps (such as Spotify), Squirrel apps (such as Discord), Steam games, and Windows system tools.
+
 ## [0.8.1] - 2026-11-02
 
 #### Added

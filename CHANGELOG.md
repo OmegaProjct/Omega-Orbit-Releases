@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.8.2] - 2026-11-02
+
+#### Hinzugefügt
+- **Bereits laufende Apps in den Vordergrund holen**: Klickt man im Orbit-Rad auf eine bereits geöffnete Anwendung (z. B. Spotify oder Discord), wird das vorhandene Fenster sofort wiederhergestellt und in den Vordergrund geholt, statt eine zweite Instanz zu starten.
+
+#### Geändert
+- **Rad beim App-Start immer ausblenden**: Das Orbit-Rad schließt sich beim Starten einer Anwendung nun zuverlässig in allen Schließ-Modi, auch wenn „Dauerhaft geöffnet bleiben“ aktiv ist.
+
+#### Behoben
+- **Fehlende App-Symbole im App-Starter**: Symbole für Microsoft-Store-Apps (wie Spotify), Squirrel-Anwendungen (wie Discord), Steam-Spiele und Windows-Systemwerkzeuge werden nun vollständig erkannt und angezeigt.
+
 ## [0.8.1] - 2026-11-02
 
 #### Hinzugefügt
