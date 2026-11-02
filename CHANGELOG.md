@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.8.1] - 2026-11-02
+
+#### Hinzugefügt
+- **Aufnahme-Einstellungen im Rad**: Eine neue Kachel im Aufnahmemenü öffnet direkt die Video- und Aufnahmeeinstellungen an der richtigen Stelle.
+- **Erweiterte Video-Optionen**: Zusätzliche Auflösungen (4K UHD, 1440p QHD, 480p SD) und Bildraten (24 FPS, 120 FPS) sowie verständliche Erklärungen zu Encodern und Qualitätsstufen ergänzt.
+
+#### Geändert
+- **Integrierte Hinweis- und Fehlermeldungen**: Meldungen zur Aufnahme erscheinen nun als verschiebbares Fenster direkt im Vordergrund vor dem Orbit-Rad statt als verdeckter Systemdialog.
+
+#### Behoben
+- **Start der Bildschirm- und Kameraaufnahme**: Abbrüche beim Starten von Videoaufnahmen mit mehreren Monitoren, aktiven Kameravorschauen oder langsamer initialisierenden Kameras behoben.
+- **Automatische Kameraauswahl**: Beim Start einer Kameraaufnahme ohne vorherige Auswahl wird nun automatisch die erste verfügbare Kamera genutzt.
+
 ## [0.8.0] - 2026-11-02
 
 - Bildschirm- und Webcam-Aufnahme: Bildschirme und Fenster direkt über das Orbit-Rad aufzeichnen, synchron mit Systemton und Mikrofon.

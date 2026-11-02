@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.8.1] - 2026-11-02
+
+#### Added
+- **Recording settings on the wheel**: A new tile in the recording menu opens the video and recording settings directly in the right section.
+- **Expanded video options**: Added more resolutions (4K UHD, 1440p QHD, 480p SD) and frame rates (24 FPS, 120 FPS) along with clear explanations for encoders and quality presets.
+
+#### Changed
+- **Integrated alert dialogs**: Recording alerts and error messages now appear as a movable dialog directly in front of the Orbit wheel instead of hidden system message boxes.
+
+#### Fixed
+- **Screen and camera recording startup**: Fixed recording aborts when capturing across multiple displays, while the camera preview is active, or with slower-initializing cameras.
+- **Automatic camera selection**: Starting a camera recording without a prior selection now automatically uses the first available camera.
+
 ## [0.8.0] - 2026-11-02
 
 - Screen and webcam recording: Capture displays and windows directly from the Orbit wheel in sync with system audio and microphone.
