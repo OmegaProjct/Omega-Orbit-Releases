@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.8.3] - 2026-11-02
+
+#### Hinzugefügt
+- **Orbit in Bildschirmaufnahmen ausblenden**: In den Video-Einstellungen kann festgelegt werden, dass das Orbit-Rad während der Aufnahme unsichtbar bleibt und nicht im fertigen Video erscheint.
+- **Schwebende Kamera-Live-Vorschau**: Das eigene Kamerabild kann während der Aufnahme als schwebender Kreis oder Rahmen direkt auf dem Desktop eingeblendet werden.
+- **Kamera-Ausschnitt und Zoom (100 % – 300 %)**: In den Video-Einstellungen kann der Bildausschnitt der Kamera per Schieberegler stufenlos herangezoomt werden, um z. B. nur das Gesicht zu zeigen.
+- **Kamera-Vorschau per Maus verschieben**: Die Position der Kameraeinblendung lässt sich in der Einstellungsvorschau nun bequem per Drag & Drop mit der Maus an die gewünschte Stelle ziehen.
+- **Direkte MP4-Aufnahme**: Bei Auswahl des MP4-Formats wird direkt als MP4 aufgezeichnet, ohne Zwischenschritt und ohne doppelte Restdateien.
+
+#### Behoben
+- **Kamera-Pufferüberlauf bei Auslastung**: Abbrüche bei gleichzeitiger Kamera- und Bildschirmaufnahme durch zu kleine Echtzeit-Eingangspuffer behoben.
+- **Lippensynchronität bei Videoaufnahmen**: Bild und Ton bleiben nun auch bei dropped Frames und schwankenden Systemlasten dauerhaft synchron.
+- **Fensterfokus bei Spotify und Discord**: Minimierte Fenster bleiben beim Klick im Orbit-Rad nun dauerhaft im Vordergrund geöffnet und schließen sich nicht mehr sofort wieder.
+- **Berechtigungsdialoge unter Windows**: UAC-Berechtigungsabfragen führen nicht mehr zum Abbruch der Videoaufnahme; die Aufnahme pausiert sicher und setzt sich nahtlos fort.
+- **Löschen der Quelldatei beim Umpacken**: Wenn das automatische Löschen der MKV-Quelldatei nach erfolgreichem MP4-Umpacken aktiviert ist, wird die Quelldatei nun zuverlässig entfernt.
+
 ## [0.8.2] - 2026-11-02
 
 #### Hinzugefügt

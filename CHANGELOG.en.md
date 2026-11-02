@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.8.3] - 2026-11-02
+
+#### Added
+- **Hide Orbit from Screen Recordings**: Option in video settings to make the Orbit wheel invisible during screen captures so it does not appear in recorded videos.
+- **Floating Live Camera Preview**: Option to display your own webcam feed as a floating bubble directly on the desktop during recordings.
+- **Camera Zoom and Crop (100% – 300%)**: Zoom slider in video settings to smoothly crop and focus the camera frame (e.g. tightly on the face).
+- **Drag & Drop Camera Positioning**: The camera overlay position can now be adjusted directly via mouse drag-and-drop in the settings preview.
+- **Direct MP4 Recording**: When MP4 is selected, recordings are written directly to MP4 without an intermediate MKV and without leftover duplicate files.
+
+#### Fixed
+- **Camera Buffer Overflow Under Load**: Resolved capture interruptions caused by real-time buffer overflows during combined webcam and screen recordings.
+- **Audio/Video Lip Sync in Recordings**: Audio and video now remain strictly synchronized even under CPU spikes or dropped frames.
+- **Spotify & Discord Window Focus**: Minimized windows now reliably stay open in the foreground when brought up from the Orbit wheel instead of immediately closing.
+- **Windows Permission Prompts (UAC)**: Administrator permission prompts no longer crash screen recordings; capture pauses safely and resumes automatically.
+- **Source Deletion After Remuxing**: When configured, the original MKV source file is now reliably removed after a successful and verified MP4 remux.
+
 ## [0.8.2] - 2026-11-02
 
 #### Added
