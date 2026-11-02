@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.7.1] - 2026-11-02
+
+- Made the shortcut for opening the Orbit wheel configurable in settings.
+- Fixed the layout of release notes in the update window.
+
 ## [0.7.0] - 2026-11-02
 
 - Smart app catalog on the wheel: Clicking the plus icon in the apps menu now opens a searchable catalog of all installed Windows programs to quickly add apps with their authentic icons.

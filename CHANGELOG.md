@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.7.1] - 2026-11-02
+
+- Tastenkürzel zum Öffnen des Orbit-Rads in den Einstellungen anpassbar gemacht.
+- Darstellung der Versionshinweise im Update-Fenster korrigiert.
+
 ## [0.7.0] - 2026-11-02
 
 - Smarter App-Katalog im Rad: Beim Klick auf das Plus-Symbol im Apps-Menü steht nun eine durchsuchbare Liste aller installierten Windows-Programme bereit, über die sich Anwendungen mit einem Klick und Original-Symbol hinzufügen lassen.
