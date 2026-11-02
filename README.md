@@ -26,11 +26,23 @@ On the release page, choose the Windows setup file. Installed versions can be up
 
 ## 📸 Einblicke / A closer look
 
-| Orbit-Rad / Orbit wheel | Audio-Menü / Audio menu |
+| Orbit-Rad (Hauptmenü) · Orbit wheel | Aufnahme-Menü · Recording submenu |
 | :---: | :---: |
-| ![Orbit-Rad mit Audio, Einstellungen und Update](assets/orbit-wheel.png) | ![Audio-Menü mit Aufnahme, Format und Aufnahmen](assets/orbit-audio.png) |
+| ![Orbit-Rad Hauptmenü](assets/orbit-wheel.png) | ![Aufnahme-Menü für Audio, Bildschirm und Kamera](assets/orbit-audio.png) |
 
-*Produktansichten auf neutralem Hintergrund · Product views on a neutral background*
+| Aktive Aufnahme · Active recording | Regenbogen-Fortschritt · Rainbow progress |
+| :---: | :---: |
+| ![Aktive Aufnahme mit Live-Timer](assets/orbit-recording-active.png) | ![Regenbogen-Fortschritt beim verlustfreien MP4-Remuxing](assets/orbit-progress-remux.png) |
+
+| App-Starter · Quick app launcher | Smarter App-Katalog · App catalog |
+| :---: | :---: |
+| ![App-Starter für Spiele und Anwendungen](assets/orbit-app-starter.png) | ![Smarter Windows-App-Katalog in der Radmitte](assets/orbit-app-catalog.png) |
+
+| Audio-Einstellungen · Audio settings | Video-Einstellungen · Video settings |
+| :---: | :---: |
+| ![Audio-Quellen und Mischung](assets/orbit-settings-audio.png) | ![Video-Einstellungen und NVENC Hardware-Encoding](assets/orbit-settings-video.png) |
+
+*Produktansichten auf einheitlich dunklem Hintergrund (900 × 650 px) · Product views on a consistent dark background*
 
 ---
 
