@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.8.0] - 2026-11-02
+
+- Screen and webcam recording: Capture displays and windows directly from the Orbit wheel in sync with system audio and microphone.
+- Smart camera overlay: Add a picture-in-picture webcam with circular, rounded, or custom mask shapes into your recordings.
+- Hardware-accelerated video: Automatic detection and use of NVIDIA NVENC, Intel QuickSync, and AMD AMF for smooth 1080p recording at 60 FPS.
+- Lossless MP4 remuxing: Safely repack robust MKV captures into MP4 immediately after recording or manually in settings.
+- Visual progress ring: The rainbow border along the Orbit wheel displays real-time progress while remuxing or converting.
+
 ## [0.7.1] - 2026-11-02
 
 - Made the shortcut for opening the Orbit wheel configurable in settings.

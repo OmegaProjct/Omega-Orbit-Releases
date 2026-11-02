@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.8.0] - 2026-11-02
+
+- Bildschirm- und Webcam-Aufnahme: Bildschirme und Fenster direkt über das Orbit-Rad aufzeichnen, synchron mit Systemton und Mikrofon.
+- Smarte Kamera-Einblendung: Bild-in-Bild-Webcam mit kreisförmiger, abgerundeter oder eigener Maskenform direkt im Video platzieren.
+- Hardware-beschleunigte Videoaufnahme: Automatische Erkennung und Nutzung von NVIDIA NVENC, Intel QuickSync und AMD AMF für flüssige Aufnahmen in 1080p bei 60 FPS.
+- Verlustfreies MP4-Remuxing: Robuste MKV-Aufnahmen direkt nach der Aufnahme oder später in den Einstellungen sicher in MP4 umpacken.
+- Visueller Fortschrittsring: Der Regenbogenrand am Orbit-Rad zeigt den Status beim Umpacken und Konvertieren von Aufnahmen live an.
+
 ## [0.7.1] - 2026-11-02
 
 - Tastenkürzel zum Öffnen des Orbit-Rads in den Einstellungen anpassbar gemacht.
