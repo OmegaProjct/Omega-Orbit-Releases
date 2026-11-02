@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.7.0] - 2026-11-02
+
+- Smarter App-Katalog im Rad: Beim Klick auf das Plus-Symbol im Apps-Menü steht nun eine durchsuchbare Liste aller installierten Windows-Programme bereit, über die sich Anwendungen mit einem Klick und Original-Symbol hinzufügen lassen.
+- Zuverlässiger Start geschützter Windows-Tools: Der Task-Manager und andere Systemprogramme lassen sich nun fehlerfrei über das Rad starten.
+- Verbesserte Dateidarstellung: Längere Dateinamen brechen sauber zweizeilig um, ein Tooltip zeigt den vollständigen Pfad und Dateien erhalten automatisch das Symbol des im System verknüpften Standardprogramms (z. B. Mediaplayer für Videos).
+- Volle Bedienbarkeit während Aufnahmen: Apps, Dateien und Lesezeichen können nun auch während einer laufenden Audioaufnahme im Rad verwaltet werden, ohne vom Aufnahmestatus verdeckt zu werden.
+- Fensterverschiebung beim Speichern: Das Orbit-Rad kann nun auch während der Konvertierung und Speicherung von Aufnahmen frei am Mittelbereich verschoben werden.
+- Fehler- und Hinweismeldungen werden nicht mehr am unteren Fensterrand abgeschnitten.
+
 ## [0.6.1] - 2026-11-01
 
 - Darstellung beim schnellen Hinzufügen von Dateien und Apps korrigiert.

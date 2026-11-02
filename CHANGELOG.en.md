@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.7.0] - 2026-11-02
+
+- Smart app catalog on the wheel: Clicking the plus icon in the apps menu now opens a searchable catalog of all installed Windows programs to quickly add apps with their authentic icons.
+- Reliable launch of protected Windows tools: Task Manager and system utilities now launch cleanly from the wheel without permission errors.
+- Improved file display: Longer filenames wrap cleanly onto two lines, hover tooltips show the complete path, and files automatically display the authentic icon of their default application (e.g. media player for videos).
+- Full usability during recordings: Apps, files, and bookmarks can now be managed on the wheel even while an audio recording is active.
+- Window dragging during saving: The Orbit wheel can now be grabbed and moved by its center hub even while converting or saving a recording.
+- Fixed notification and error banners being clipped at the bottom window edge.
+
 ## [0.6.1] - 2026-11-01
 
 - Fixed the layout when quickly adding files and apps.
