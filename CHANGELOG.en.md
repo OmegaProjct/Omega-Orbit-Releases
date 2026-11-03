@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.8.6] - 2026-11-03
+
+#### Added
+- **H.265 / HEVC Video Encoders**: Added support for modern hardware-accelerated H.265 / HEVC encoding (NVIDIA NVENC, Intel Quick Sync, AMD AMF) and CPU encoding for smaller file sizes at identical visual quality.
+- **Camera Zoom and Pan Framing**: Smoothly zoom in on the camera image and adjust horizontal and vertical pan offsets in video settings to frame the shot exactly as desired.
+- **Adjustable Camera Blob Size and Position**: Dedicated sliders in video settings allow fine-tuning of the camera blob size and placement angle around the wheel.
+
+#### Changed
+- **Click-Through in Transparent Window Areas**: The transparent desktop space outside the visible wheel and camera bubble now passes mouse clicks directly through to underlying windows and the desktop.
+- **Clean Settings Window Docking**: The Orbit wheel now docks to the settings window with an exact 16-pixel visual gap without empty space.
+- **Expanded Alert Dialogs**: Error and status alerts are now presented in an enlarged, scrollable dialog across the full screen overlay.
+
+#### Fixed
+- **Persistent Camera Display Resolved**: The camera preview at the wheel rim now only appears during active camera recordings and automatically dismisses when stopped.
+- **Live Video Feed in Camera Blob**: During recordings, the camera blob displays the live camera stream instead of a static recording placeholder.
+- **16:9 Camera Clipping at 3 O'Clock and 9 O'Clock**: Rectangular camera bubbles at 0° and 180° angles are no longer clipped by window borders.
+- **Buffer Overflows and Recording Aborts**: Resolved audio buffer overflows and unexpected recording interruptions during simultaneous webcam and desktop capture.
+- **Restoring Collapsed Wheel**: Re-opening the wheel via the global shortcut or system tray now reliably restores the wheel even when previously collapsed.
+
 ## [0.8.5] - 2026-11-03
 
 #### Fixed

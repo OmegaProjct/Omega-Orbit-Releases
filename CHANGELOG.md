@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.8.6] - 2026-11-03
+
+#### Hinzugefügt
+- **H.265 / HEVC-Video-Encoder**: Unterstützung für moderne H.265 / HEVC-Hardware-Beschleunigung (NVIDIA NVENC, Intel Quick Sync, AMD AMF) und CPU-Encoding für kleinere Videodateien bei gleicher Bildqualität.
+- **Kamerabild-Zoom und Bildausschnitt**: In den Video-Einstellungen kann das Kamerabild vergrößert und der Bildausschnitt horizontal sowie vertikal verschoben werden, um den gewünschten Bereich exakt einzupassen.
+- **Größe und Position des Kamera-Blobs einstellbar**: Neue Schieberegler in den Video-Einstellungen ermöglichen die präzise Anpassung der Blob-Größe und des Winkels am Orbit-Rad.
+
+#### Geändert
+- **Klick-Durchlässigkeit um das Orbit-Rad**: Transparente Bereiche außerhalb des Rads und des Kamera-Blobs lassen Mausklicks ungehindert durch, sodass dahinterliegende Fenster und der Desktop direkt bedienbar bleiben.
+- **Exakter Andock-Abstand zu den Einstellungen**: Das Orbit-Rad dockt nun mit einem sauberen, gleichmäßigen 16-Pixel-Abstand direkt an das Einstellungsfenster an.
+- **Vergrößerte Hinweisfenster**: Fehlermeldungen und Systemhinweise werden nun in einem größeren, scrollbaren Dialogfenster über dem gesamten Bildschirmbereich dargestellt.
+
+#### Behoben
+- **Dauerhafte Kamera-Einblendung behoben**: Das Kamerabild am Rad erscheint nun ausschließlich während einer aktiven Kameraaufnahme und wird nach dem Beenden automatisch geschlossen.
+- **Live-Vorschau statt Aufnahmezeit im Kamera-Blob**: Während der Aufnahme zeigt der Kamera-Blob das echte Kamerabild anstelle des statischen Aufnahmehinweises.
+- **Abschneiden des 16:9-Kamerabilds bei 3 Uhr und 9 Uhr**: Im Querformat wird das Kamerabild auch an den seitlichen Rändern des Rads nicht mehr abgeschnitten.
+- **Pufferüberläufe und Aufnahmeabbrüche**: Unerwartete Signal-Abbrüche bei gleichzeitiger Kamera- und Bildschirmaufnahme durch zu kleine Audiopuffer wurden behoben.
+- **Wiederherstellung des eingeklappten Rads**: Wurde das Rad eingeklappt, lässt es sich nun jederzeit zuverlässig über das globale Tastenkürzel oder das Taskleistensymbol wieder öffnen.
+
 ## [0.8.5] - 2026-11-03
 
 #### Behoben
