@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.8.5] - 2026-11-03
+
+#### Fixed
+- **Build and Release Pipeline Stabilization**: Fixed an automated packaging issue so that all 0.8.4 improvements (orbital camera blob, webcam hardware exclusivity, and window focus stabilization) are reliably delivered via the built-in updater.
+
 ## [0.8.4] - 2026-11-02
 
 #### Added

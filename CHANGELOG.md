@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.8.5] - 2026-11-03
+
+#### Behoben
+- **Build- und Release-Pipeline stabilisiert**: Ein Fehler im automatisierten Paketierungsprozess wurde behoben, sodass alle Verbesserungen der Version 0.8.4 (orbitaler Kamera-Blob, Hardware-Exklusivität für Webcams und stabiler Fensterfokus) nun zuverlässig über den Updater bereitstehen.
+
 ## [0.8.4] - 2026-11-02
 
 #### Hinzugefügt
