@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.8.8] - 2026-11-03
+
+#### Geändert
+- **Übersichtliche Aufnahme-Einstellungen**: Quellen, Audio, Video, Formate, Speicherorte und Kamera sind in eigenen Reitern angeordnet.
+- **Getrennte Aufnahmeordner**: Für Audio- und Videoaufnahmen lassen sich separate Speicherorte wählen. Der bisherige Ordner wird zunächst für beide übernommen.
+
+#### Behoben
+- **Kameravorschau wieder sichtbar**: Die Live-Vorschau wird in den Kamera-Einstellungen wieder angezeigt und beim Verlassen des Kamera-Reiters freigegeben.
+- **Kamera-Satellit nur bei Bedarf**: Der Satellit erscheint ausschließlich bei laufender oder pausierter Kameraaufnahme beziehungsweise Bildschirmaufnahme mit Kamera und aktivierter Satellitenanzeige.
+- **Orbit bis an die Taskleiste bewegen**: Das sichtbare Rad und ein aktiver Kamera-Satellit lassen sich direkt bis an die Taskleiste verschieben, ohne sie zu überdecken.
+
 ## [0.8.7] - 2026-11-03
 
 #### Geändert

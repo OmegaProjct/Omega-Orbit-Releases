@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.8.8] - 2026-11-03
+
+#### Changed
+- **Organized recording settings**: Sources, Audio, Video, Formats, Save Locations and Camera now have dedicated tabs.
+- **Separate recording folders**: Audio and video recordings can use separate save locations. The existing folder is initially retained for both.
+
+#### Fixed
+- **Camera preview restored**: The live preview is visible again in camera settings and is released when leaving the Camera tab.
+- **Camera satellite shown only when needed**: The satellite appears only during an active or paused camera recording, or a screen recording with a camera, when satellite display is enabled.
+- **Move Orbit right up to the taskbar**: The visible wheel and an active camera satellite can be moved directly to the taskbar without covering it.
+
 ## [0.8.7] - 2026-11-03
 
 #### Changed
