@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.8.7] - 2026-11-03
+
+#### Changed
+- **Movable Notification and Alert Windows**: Error and status dialogs can now be freely dragged across screens and multiple monitors using the mouse.
+- **Safe Video Conversion & Source Retention**: When converting MKV recordings to MP4, the original file is strictly verified before deletion and safely retained if any stream discrepancies are detected.
+- **Reliable Update Checksum Verification**: The built-in updater resolves and verifies installer checksums even more reliably, ensuring that corrupted or incomplete downloads are safely blocked.
+
+#### Fixed
+- **Camera Device Conflicts Between Preview and Recording**: The settings camera preview and the satellite camera blob can now run alongside video recording without "camera busy" errors.
+- **Protection Against In-Recording Camera Switches**: Switching the active camera in settings is safely locked while a recording is in progress, preventing capture interruptions.
+- **Audio in Video Recordings**: Audio handling when starting and stopping video recordings has been stabilized.
+- **Segment Retention on Unexpected Capture Errors**: If a video recording process is interrupted unexpectedly, all intact recorded video segments are safely preserved on disk.
+
 ## [0.8.6] - 2026-11-03
 
 #### Added

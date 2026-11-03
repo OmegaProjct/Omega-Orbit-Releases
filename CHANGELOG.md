@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.8.7] - 2026-11-03
+
+#### Geändert
+- **Frei verschiebbare Hinweisfenster**: Fehler- und Benachrichtigungsdialoge können nun frei mit der Maus auf dem Bildschirm und über mehrere Monitore hinweg verschoben werden.
+- **Sicherer Erhalt von Originalaufnahmen**: Beim Umwandeln von MKV- in MP4-Dateien wird die Originalaufnahme vor dem Löschen auf Vollständigkeit aller Spuren geprüft und bei Unstimmigkeiten sicher auf der Festplatte behalten.
+- **Zuverlässige Update-Prüfsummen**: Der integrierte Updater gleicht heruntergeladene Aktualisierungen noch robuster mit den veröffentlichten Prüfsummen ab und schützt zuverlässig vor unvollständigen Downloads.
+
+#### Behoben
+- **Kamera-Konflikte zwischen Vorschau und Aufnahme behoben**: Die Kamera-Vorschau in den Einstellungen und der Kamera-Satellit am Rad können nun zeitgleich mit Videoaufnahmen aktiv sein, ohne dass die Webcam als belegt gemeldet wird.
+- **Schutz laufender Aufnahmen vor Kamerawechsel**: Ein Gerätewechsel der Kamera in den Einstellungen ist während einer aktiven Aufnahme gesperrt, um Abbrüche zu verhindern.
+- **Audio bei Videoaufnahmen**: Die Verarbeitung beim Start und Beenden von Videoaufnahmen wurde stabilisiert.
+- **Erhalt von Videosegmenten bei unerwarteten Abbrüchen**: Bricht eine Videoaufnahme unerwartet ab, bleiben alle bis dahin aufgezeichneten Segmente sicher auf dem Datenträger erhalten.
+
 ## [0.8.6] - 2026-11-03
 
 #### Hinzugefügt
