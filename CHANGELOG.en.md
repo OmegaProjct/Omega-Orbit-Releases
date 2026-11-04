@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.8.10] - 2026-11-04
+
+#### Added
+- **Multiple audio sources for video recordings**: Select and mix up to 20 devices and apps, each with its own volume.
+- **Audio format options**: Choose MP3 bitrate, sample rate and channels; WAV additionally supports 16-bit and 24-bit audio.
+- **Mouse pointer capture**: Turn mouse pointer capture on or off for screen recordings.
+
+#### Changed
+- **Clearer help and update settings**: Feedback and support are now under Help and Logs. Update settings and status are arranged vertically.
+- **Recording settings**: Audio and video recordings have separate save locations and relevant format settings.
+
+#### Fixed
+- **Mouse pointer during screen recordings**: Screen capture uses a different method intended to prevent cursor flicker while preserving the pointer in the recording.
+- **Camera preview**: Camera access errors are displayed and the preview can be retried.
+- **Folder picker**: The dialog opens at the configured recording folder.
+
 ## [0.8.8] - 2026-11-03
 
 #### Changed

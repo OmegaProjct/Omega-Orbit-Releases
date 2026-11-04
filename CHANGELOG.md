@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.8.10] - 2026-11-04
+
+#### Hinzugefügt
+- **Mehrere Audioquellen für Videoaufnahmen**: Bis zu 20 Geräte und Apps lassen sich auswählen und mit eigener Lautstärke zusammenmischen.
+- **Audioformate einstellen**: MP3-Bitrate sowie Abtastrate und Kanäle sind wählbar; WAV unterstützt zusätzlich 16 und 24 Bit.
+- **Mauszeiger aufnehmen**: Der Mauszeiger lässt sich für Bildschirmaufnahmen ein- oder ausschalten.
+
+#### Geändert
+- **Übersichtlichere Hilfe und Updates**: Feedback und Support befinden sich bei Hilfe und Protokoll. Update-Einstellungen und Status sind untereinander angeordnet.
+- **Aufnahme-Einstellungen**: Audio- und Videoaufnahme haben getrennte Speicherorte und jeweils passende Formateinstellungen.
+
+#### Behoben
+- **Mauszeiger bei Bildschirmaufnahmen**: Die Bildschirmaufnahme verwendet einen anderen Aufnahmeweg, um Cursorflackern zu vermeiden und den Mauszeiger weiterhin aufzuzeichnen.
+- **Kameravorschau**: Fehler beim Kamerazugriff werden angezeigt und die Vorschau kann erneut geladen werden.
+- **Ordnerauswahl**: Der Dialog öffnet sich beim eingestellten Aufnahmeordner.
+
 ## [0.8.8] - 2026-11-03
 
 #### Geändert
