@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.8.11] - 2026-11-04
+
+#### Hinzugefügt
+- **Kameraränder zuschneiden**: Linker, rechter, oberer und unterer Rand lassen sich separat entfernen, ohne den übrigen Bildinhalt zu vergrößern.
+
+#### Geändert
+- **Übersichtliche Kameraeinstellungen**: Kameraauswahl nur noch im Kamera-Reiter; Darstellung, Zuschnitt, Anzeige und Satellit sind in aufklappbare Bereiche gegliedert.
+- **Einheitliches Aufnahmesymbol**: Ein roter Punkt mit weißem REC kennzeichnet die Aufnahme unabhängig von der Aufnahmeart. Interne Symbole sind farbig gestaltet.
+
+#### Behoben
+- **Bildschirmzuordnung**: Kleine Rundungsabweichungen bei Bildschirmgrößen verhindern die Auswahl des passenden Monitors nicht mehr.
+
 ## [0.8.10] - 2026-11-04
 
 #### Hinzugefügt

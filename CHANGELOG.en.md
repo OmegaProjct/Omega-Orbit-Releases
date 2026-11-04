@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.8.11] - 2026-11-04
+
+#### Added
+- **Trim camera edges**: Remove the left, right, top and bottom edges separately without enlarging the remaining image.
+
+#### Changed
+- **Organized camera settings**: Camera selection is available only in the Camera tab; appearance, trimming, display and satellite options are grouped in collapsible sections.
+- **Consistent recording icon**: A red dot and white REC identify recording regardless of recording mode. Built-in icons now use colors.
+
+#### Fixed
+- **Display selection**: Small rounding differences in screen dimensions no longer prevent matching the selected monitor.
+
 ## [0.8.10] - 2026-11-04
 
 #### Added
