@@ -1,5 +1,36 @@
 # Changelog
 
+## [0.8.14] - 2026-11-06
+
+#### Added
+- **Cleaner sidebar**: Settings are now grouped into "Wheel & General" and "Content". Each group can be expanded or collapsed independently, and several can stay open at once.
+- **Direct jumps**: Clicking a sidebar item immediately opens the matching settings page or section.
+- **Fitting window width**: The settings window automatically adjusts its width so all tabs stay visible — no manual resizing or horizontal scrolling.
+
+#### Changed
+- **Wheel layout under "Wheel & General"**: Tile arrangement now lives under "Wheel & General → Wheel Layout" instead of Plugins.
+- **Plugins as a single entry**: The sidebar now only shows "Plugins". Plugin Management, Audio & Sources, and Video & Recordings are arranged as tabs inside the Plugins page.
+- **Faster App Starter**: Opening the App Starter no longer freezes the application; installed apps are scanned in the background.
+
+#### Fixed
+- **Unnecessary sidebar gap**: The Plugins entry now sits directly below "Help & Logs" instead of being pushed to the bottom edge.
+
+#### Removed
+- **Wheel capacity notice**: The explanatory box in the App Starter was removed; the page now starts directly with the configured apps.
+
+## [0.8.13] - 2026-11-06
+
+#### Added
+- **Plugin management**: Features such as audio recording can be enabled or disabled in Settings. The new “Plugins” section sits at the bottom of the sidebar, with the related feature settings directly below.
+- **Custom wheel layout**: Reorder tiles and distribute them across the pages of the Orbit wheel. “Reset to default” restores the previous arrangement.
+
+#### Changed
+- **Recording as a standalone feature**: Audio recording is now organized as a plugin and can be managed independently. Video recording is prepared for a later version but disabled by default in 0.8.13.
+- **Tidier settings**: The Plugins section is at the end of Settings; its feature tabs only appear while the corresponding feature is enabled.
+
+#### Fixed
+- **Empty recording tile**: When both audio and video recording are disabled, the recording tile is removed from the wheel instead of remaining as an empty entry.
+
 ## [0.8.11] - 2026-11-04
 
 #### Added
