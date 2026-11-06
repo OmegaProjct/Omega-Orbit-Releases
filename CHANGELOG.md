@@ -1,5 +1,36 @@
 # Changelog
 
+## [0.8.14] - 2026-11-06
+
+#### Hinzugefügt
+- **Aufgeräumte Seitenleiste**: Die Einstellungen sind jetzt in die Bereiche „Rad & Allgemein“ und „Inhalte“ gegliedert. Beide Bereiche lassen sich unabhängig auf- und zuklappen, mehrere können gleichzeitig offen bleiben.
+- **Direkte Sprünge**: Ein Klick auf einen Eintrag in der Seitenleiste öffnet sofort die passende Einstellungsseite beziehungsweise den passenden Unterbereich.
+- **Passende Fensterbreite**: Das Einstellungsfenster passt seine Breite automatisch so an, dass alle Reiter sichtbar sind – ohne manuelles Ziehen oder horizontales Scrollen.
+
+#### Geändert
+- **Rad-Layout unter „Rad & Allgemein“**: Die Anordnung der Rad-Kacheln ist jetzt unter „Rad & Allgemein → Rad-Layout“ zu finden statt unter Plugins.
+- **Plugins als ein Eintrag**: In der Seitenleiste gibt es nur noch „Plugins“. Plugin-Verwaltung, Audio & Quellen und Video & Aufnahmen sind als Reiter innerhalb der Plugins-Seite angeordnet.
+- **Schnellerer App-Starter**: Beim Öffnen des App-Starters friert die Anwendung nicht mehr ein; installierte Apps werden im Hintergrund eingelesen.
+
+#### Behoben
+- **Unnötige Lücke in der Seitenleiste**: Der Plugins-Eintrag steht jetzt direkt unter „Hilfe & Protokoll“ statt mit großem Abstand am unteren Rand.
+
+#### Entfernt
+- **Hinweis zur Rad-Kapazität**: Der erklärende Kasten im App-Starter wurde entfernt; die Seite beginnt direkt mit den konfigurierten Apps.
+
+## [0.8.13] - 2026-11-06
+
+#### Hinzugefügt
+- **Plugin-Verwaltung**: In den Einstellungen lassen sich Funktionen wie die Audioaufnahme bequem ein- und ausschalten. Der neue Bereich „Plugins“ steht ganz unten in der Seitenleiste; die zugehörigen Einstellungen erscheinen direkt darunter.
+- **Eigenes Rad-Layout**: Die Reihenfolge der Kacheln und ihre Verteilung auf die Seiten des Orbit-Rads lassen sich frei anpassen. „Standard wiederherstellen“ setzt alles zurück.
+
+#### Geändert
+- **Aufnahme als eigenständige Funktion**: Die Audioaufnahme ist jetzt als Plugin organisiert und kann unabhängig verwaltet werden. Die Videoaufnahme ist für eine spätere Version vorbereitet, in 0.8.13 aber standardmäßig deaktiviert.
+- **Aufgeräumte Einstellungen**: Der Plugins-Bereich steht am Ende der Einstellungen; die zugehörigen Unterbereiche erscheinen nur, wenn die Funktion aktiviert ist.
+
+#### Behoben
+- **Leere Aufnahme-Kachel**: Wenn Audio- und Videoaufnahme beide deaktiviert sind, wird die Aufnahme-Kachel vollständig aus dem Rad entfernt statt als leerer Eintrag stehen zu bleiben.
+
 ## [0.8.11] - 2026-11-04
 
 #### Hinzugefügt
