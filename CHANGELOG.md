@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.8.15] - 2026-11-08
+
+#### Hinzugefügt
+- **Videoaufnahme**: Bildschirm-, Kamera- und Overlay-Aufnahmen sind jetzt verfügbar. Systemton, Mikrofon und weitere Geräte oder Apps lassen sich gemeinsam aufnehmen.
+- **Kamera-Vorschau in groß**: Die Kameraeinstellungen lassen sich in einer großen Vorschau bearbeiten. Zwischen dem Overlay in der Bildschirmaufnahme und einer reinen Kameraansicht kann direkt umgeschaltet werden.
+- **Aufnahme mit oder ohne Kamera**: Beim Start einer Bildschirmaufnahme im Rad lässt sich vorher festlegen, ob die Kamera eingeblendet wird. Die Auswahl gilt auch für die Einstellungen.
+- **Kompakte Zahlenfelder**: Kameraposition, Größe, Ausschnitt und Synchronisation lassen sich präzise mit Zahlenfeldern und Plus/Minus-Tasten einstellen. Gedrückthalten wiederholt die Änderung.
+
+#### Geändert
+- **Video-Einstellungen neu organisiert**: Klare Bereiche für Bildschirm, Audio, Qualität, Format, Speichern und Kamera. Aufgeräumte Karten, besserer Kontrast und besser lesbare Schrift.
+- **Kamera-Overlay**: Die Kamera lässt sich frei positionieren, skalieren, zuschneiden und als Rechteck, abgerundetes Rechteck, Kreis oder eigene PNG-Maske einblenden.
+- **Getrennte Anzeigegrößen**: Die Größe im Bildschirm-Overlay und in der reinen Kamera-Vorschau sind unabhängig einstellbar.
+- **Kamera-Synchronisation**: Die Kamera-Latenz im Overlay wird automatisch ausgeglichen, damit Kamerabild und Stimme zusammenpassen.
+
+#### Behoben
+- **Ton und Bild starten synchron**: Bildschirm-, Kamera- und Audioaufnahmen beginnen jetzt gemeinsam; der Ton läuft nicht mehr voraus.
+- **Kamera-Overlay erscheint zu spät**: Das Kamerabild im Overlay wird um die gemessene Verzögerung ausgeglichen.
+- **Kamera-Vorschau setzt aus**: Doppelte Vorschauverbindungen wurden entfernt; die Vorschau läuft stabiler.
+- **Große Kameraansicht springt**: Kein Scrollen und kein Springen mehr beim Wechsel zwischen Overlay und reiner Kameraansicht.
+- **Kamera-Zuschnitt und Maske**: Der Zuschnitt verändert nicht mehr die Maske; das Kamerabild wird vor der Maske beschnitten.
+
 ## [0.8.14] - 2026-11-06
 
 #### Hinzugefügt

@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.8.15] - 2026-11-08
+
+#### Added
+- **Video recording**: Screen, camera and overlay recordings are now available. System audio, microphone and additional devices or apps can be recorded together.
+- **Large camera preview**: Camera settings can be edited in a large preview. Switch directly between the overlay in screen recordings and a camera-only view.
+- **Record with or without camera**: Before starting a screen recording from the wheel, choose whether the camera should be included. The choice also applies to Settings.
+- **Compact number fields**: Camera position, size, framing and synchronization can be adjusted precisely with number fields and plus/minus buttons. Holding a button repeats the change.
+
+#### Changed
+- **Reorganized video settings**: Clear sections for screen, audio, quality, format, save location and camera. Cleaner cards, better contrast and more readable text.
+- **Camera overlay**: Position, scale and trim the camera freely, and display it as a rectangle, rounded rectangle, circle or custom PNG mask.
+- **Separate display sizes**: The size in the screen overlay and in the camera-only preview can be adjusted independently.
+- **Camera synchronization**: Camera latency in the overlay is compensated automatically so the camera image and voice stay together.
+
+#### Fixed
+- **Audio and video start in sync**: Screen, camera and audio recordings now start together; audio no longer runs ahead.
+- **Camera overlay appeared late**: The camera image in the overlay is compensated for the measured delay.
+- **Camera preview stuttered**: Duplicate preview connections were removed; the preview runs more reliably.
+- **Large camera view jumped**: No scrolling or resizing when switching between overlay and camera-only view.
+- **Camera trim and mask**: Trimming no longer changes the mask; the camera image is cropped before the mask is applied.
+
 ## [0.8.14] - 2026-11-06
 
 #### Added
