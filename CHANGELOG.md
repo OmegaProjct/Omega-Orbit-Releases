@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.9.1] - 2026-11-10
+
+#### Geändert
+- **Satellitenmodus als Standard**: Der Radio-Player und die Sendersuche docken nach der Installation standardmäßig mit leuchtender Verbindungsbrücke als Satelliten an das Orbit-Rad an.
+- **Freies Bewegen**: Wird der Satellitenmodus deaktiviert, lassen sich Radio-Player und Sendersuche über die obere Griffleiste völlig frei auf dem Desktop platzieren, ohne starr vom Orbit-Rad mitgezogen zu werden.
+
+#### Behoben
+- **Fehlende Verbindungsbrücke**: Radio-Player und Sendersuche öffnen sich nicht mehr im starren Abstand ohne Brücke, sondern docken direkt als Satellit an oder bewegen sich frei.
+- **Sendersuche-Ziehgriff**: Die Sendersuche behält auch im freien Modus ihre Griffleiste zum komfortablen Verschieben.
+
 ## [0.9.0] - 2026-11-10
 
 #### Hinzugefügt

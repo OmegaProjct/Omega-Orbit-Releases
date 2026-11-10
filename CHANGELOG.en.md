@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.9.1] - 2026-11-10
+
+#### Changed
+- **Satellite mode default**: The radio player and station finder now dock as satellites to the Orbit wheel with visual connection bridges by default after installation.
+- **Free desktop movement**: When satellite mode is disabled, the radio player and station finder can be freely positioned anywhere across displays via their top drag handle without being rigidly pulled by the wheel.
+
+#### Fixed
+- **Missing connection bridge**: Radio player and station finder no longer open at rigid offsets without bridges; they now dock cleanly or move freely.
+- **Station finder drag handle**: Station finder keeps its top drag handle active in free move mode for easy positioning.
+
 ## [0.9.0] - 2026-11-10
 
 #### Added
