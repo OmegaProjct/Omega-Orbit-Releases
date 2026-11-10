@@ -1,5 +1,31 @@
 # Changelog
 
+## [0.9.0] - 2026-11-10
+
+#### Added
+- **Radio plugin**: New standalone feature plugin for internet radio directly within the Orbit wheel.
+- **Station search & preview**: Search stations worldwide by name, genre, country, or popularity with instant audio preview.
+- **Favorites in the wheel**: Add favorite stations to your personal station wheel and play them directly with one click.
+- **Satellite player**: Compact radio player that docks smoothly to the Orbit wheel, orbits around it via drag, or detaches freely onto the desktop.
+- **Timeshift buffer**: Up to 3 minutes of buffer to rewind, skip forward, or jump back to LIVE at any moment.
+- **Track recognition & export**: Detects songs from stream metadata and exports complete tracks losslessly with a single click.
+- **Radio recording**: Record full radio sessions and save them as original stream format, MP3, WAV, or FLAC.
+- **Dedicated audio output device**: Route radio playback to a separate audio device (such as a GoXLR Music channel or dedicated headphones) without affecting system audio.
+- **Mouse wheel volume control**: Hover and scroll over the volume slider to adjust volume in 10% steps (or fine 2% steps with Shift).
+- **Reactive beat pulse**: Optional rainbow edge pulsing in sync with music rhythm on the player frame.
+- **Detailed session logs**: Comprehensive diagnostic log viewer in Settings with colored counter badges for Info, Warnings, and Errors.
+
+#### Changed
+- **Recording safety**: Stopping and saving recordings now succeeds gracefully even if individual audio input devices fail unexpectedly.
+- **Safe file replacement**: Target recording replacements use atomic staging copies to prevent file loss on full disks.
+- **Log privacy redaction**: Personal user paths and sensitive credentials are automatically redacted across all diagnostic logs.
+
+#### Fixed
+- **Satellite movement lag**: Radio player and station finder satellites now track wheel movements smoothly without delay.
+- **Station finder window sizing**: Station finder opens reliably in fixed bounds without accidental window resizing.
+- **Play/pause button toggle**: Play/pause button updates its icon and state instantly when paused or resumed.
+- **Radio player height**: The player dynamically expands when opening the track history, ensuring all bottom controls remain accessible.
+
 ## [0.8.15] - 2026-11-08
 
 #### Added

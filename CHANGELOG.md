@@ -1,5 +1,31 @@
 # Changelog
 
+## [0.9.0] - 2026-11-10
+
+#### Hinzugefügt
+- **Radio-Plugin**: Neues eigenständiges Plugin für Internetradio direkt im Orbit-Rad.
+- **Sendersuche & Vorschau**: Weltweite Radiosender nach Name, Genre, Land oder Beliebtheit durchsuchen und direkt per Klick vorhören.
+- **Senderfavoriten im Rad**: Lieblingssender zur persönlichen Favoritenliste hinzufügen und direkt aus dem Orbit-Rad starten.
+- **Satelliten-Player**: Kompakter Radio-Player, der sanft am Orbit-Rad andockt, mit gedrückter Maustaste um das Rad bewegt oder frei auf dem Desktop platziert werden kann.
+- **Timeshift-Puffer**: Bis zu 3 Minuten Puffer zum flexiblen Vor- und Zurückspringen im laufenden Radioprogramm sowie Sofort-Rückkehr zu LIVE.
+- **Song-Erkennung & Export**: Erkennt laufende Musiktitel aus dem Radiostream und speichert beliebige Songs mit einem Klick verlustfrei als Audiodatei.
+- **Radio-Aufnahme**: Komplette Radiosendungen mitschneiden und wahlweise als Original-Stream, MP3, WAV oder FLAC abspeichern.
+- **Eigenes Audio-Ausgabegerät**: Der Radio-Player kann auf ein separates Audiogerät gelegt werden (z. B. GoXLR Music-Kanal oder Kopfhörer), ohne andere Systemsounds zu verändern.
+- **Lautstärkeregelung per Mausrad**: Durch Scrollen über dem Lautstärkeregler lässt sich die Lautstärke in 10%-Schritten (oder feinen 2%-Schritten mit Umschalttaste) anpassen.
+- **Reaktiver Beat-Puls**: Optionaler Regenbogen-Puls am Rahmen des Players, der synchron zum Rhythmus der Musik leuchtet.
+- **Detaillierte Sitzungsprotokolle**: Umfassende Protokollanzeige in den Einstellungen mit farbigen Zähler-Badges für Info, Warnungen und Fehler.
+
+#### Geändert
+- **Aufnahme-Sicherheit**: Stoppen und Speichern von Aufnahmen schlagen auch bei unerwartetem Ausfall einzelner Audioquellen nicht mehr fehl.
+- **Sicheres Speichern**: Bestätigte Zielaufnahmen werden über geschützte Zwischenkopien ersetzt, um Datenverlust bei vollen Datenträgern auszuschließen.
+- **Datenschutz in Protokollen**: Persönliche Benutzerpfade und Zugangsdaten werden in allen Fehlerprotokollen automatisch unkenntlich gemacht.
+
+#### Behoben
+- **Satelliten-Verzögerung**: Der Radio-Player und die Sendersuche folgen dem Verschieben des Orbit-Rads jetzt nahtlos ohne Verzögerung.
+- **Fenstergröße der Sendersuche**: Die Sendersuche öffnet sich zuverlässig in fester Größe, ohne sich unbeabsichtigt aufzuschaukeln.
+- **Play/Pause-Umschaltung**: Der Play/Pause-Button schaltet beim Pausieren und Fortsetzen sofort synchron zwischen Play- und Pause-Symbol um.
+- **Höhe des Radio-Players**: Das Player-Fenster passt seine Höhe beim Öffnen der Titelliste automatisch an, sodass alle Bedienelemente bedienbar bleiben.
+
 ## [0.8.15] - 2026-11-08
 
 #### Hinzugefügt
