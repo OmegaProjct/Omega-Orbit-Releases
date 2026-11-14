@@ -1,5 +1,37 @@
 # Changelog
 
+## [0.10.1] - 2026-11-14
+
+#### Added
+- **In-wheel folders & drag-and-drop editing**: Create folders for Apps, Bookmarks, and Files directly from the wheel's plus menu. A new "Edit" button below Plus/Minus — or holding any tile or folder — toggles wiggle mode, letting you drag tiles into folders, drop onto "Back" to move out, stack tiles onto each other to name a new folder, and switch pages while dragging.
+- **Customizable wheel icon & label sizes**: Dedicated icon and font size sliders with presets (70% to 180%) and a live preview under "Appearance & Wheel Size"; shrinking the wheel diameter automatically scales down oversized icons and labels to fit cleanly.
+- **3-tier start-page layout & redesigned layout editor**: Assign Apps, Bookmarks, and Files to Page 1, keep them strictly on follow-up pages without creeping onto Page 1, or keep them in submenus. The circular preview editor now supports direct mouse dragging, free placement of "Close" on Page 1, locking tiles to slots, and hiding unused tiles.
+- **Game launcher discovery in App Search**: Installed games from Steam, Epic Games, GOG Galaxy, Ubisoft Connect, and Windows Store/Xbox as well as game shortcuts appear directly in App Search and launch straight from the wheel.
+- **Configurable always-on-top behavior**: A new "Keep wheel always on top" option under "Behavior & Controls" lets the wheel yield behind screenshots and other applications by default whenever Omega Orbit loses focus.
+
+#### Changed
+- **Larger default wheel tiles & custom Converter icon**: Wheel icons and labels are larger and easier to read by default, and the Converter uses a dedicated custom icon everywhere without the extra subtitle underneath its tile.
+- **Smarter App Search ranking & paging display**: Exact program matches (such as Steam itself) rank ahead of individual games in App Search, and the center hub reliably shows page numbers across multi-page Apps, Bookmarks, and Files views.
+
+#### Fixed
+- **Authentic game & shortcut icons**: Games and desktop shortcuts show their real program icons instead of generic file icons or launcher placeholders, and previously cached generic icons repair automatically.
+- **File pickers & screenshots stay visible**: Native file selection dialogs (in both the wheel and Converter) and screenshot overlays stay usable in front of the wheel without prematurely closing the wheel when triggered in release-key mode.
+- **Safe folder removal & exit protection**: Deleting a folder in the wheel moves its entries safely back to the top level instead of losing them, and exiting Omega Orbit respects active conversions.
+
+## [0.10.0] - 2026-11-13
+
+#### Added
+- **Converter plugin**: New standalone plugin for local video, audio, and image conversion directly inside the Orbit wheel — completely offline on your computer.
+- **54 tools workspace**: Dedicated workspace window with tools for trimming, resizing, compressing, watermarking, merging and splitting videos, audio processing, image optimization, PDF/Office document conversion with OCR text recognition (German and English), and archives.
+- **Direct archive fallback in the wheel**: Files without a direct conversion target can be packed directly in the wheel as ZIP, 7-Zip, or (when WinRAR is installed) RAR archives, paired with a clear hint below the wheel.
+- **Configurable target formats**: Enable or hide offered video, audio, and image target formats individually under "Plugins → Converter".
+- **Automatic GPU & platform acceleration**: H.264 video conversions automatically use available hardware encoders (NVIDIA NVENC, Intel Quick Sync, AMD AMF), and AAC audio uses Windows Media Foundation — each with automatic CPU fallback when needed.
+
+#### Changed
+- **Organized wheel layout & paging**: Standard controls sit together at the top of the converter wheel (Close, Back, Cancel, Tools) while target formats sit at the bottom and paginate cleanly according to your tile limit (`4`, `6`, or `8`).
+- **Circular drop target & automatic reset**: The center drop zone fills the circular hub and automatically clears loaded files after completion, cancellation, or leaving the converter view.
+- **Rainbow ring progress**: Active conversions display status and measured progress directly along the wheel's rainbow border while keeping active recordings and app updates protected.
+
 ## [0.9.1] - 2026-11-10
 
 #### Changed

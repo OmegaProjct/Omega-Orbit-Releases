@@ -1,5 +1,37 @@
 # Changelog
 
+## [0.10.1] - 2026-11-14
+
+#### Hinzugefügt
+- **Ordner & Bearbeiten direkt im Rad**: Für Apps, Lesezeichen und Dateien lassen sich Ordner jetzt auch direkt über das Plus-Menü im Rad anlegen. Über die neue Taste „Bearbeiten“ unter Plus/Minus oder durch Gedrückthalten auf einer Kachel startet der Wackelmodus, in dem sich Kacheln per Ziehen in Ordner einsortieren, über „Zurück“ wieder herauslegen, per Aufeinanderziehen zu einem neuen benannten Ordner verbinden und durch Seitenblättern während des Ziehens verschieben lassen.
+- **Anpassbare Symbol- & Schriftgröße im Rad**: Unter „Darstellung & Radgröße“ stehen eigene Regler und Schnellauswahlen (70 % bis 180 %) samt Live-Vorschau bereit; wird das Rad kleiner eingestellt, schrumpfen große Symbole und Texte automatisch passend mit.
+- **3-stufiges Startseiten-Layout & neuer Layout-Editor**: Apps, Lesezeichen und Dateien lassen sich gezielt auf Seite 1, nur auf Folgeseiten (ohne ungewolltes Nachrücken auf Seite 1) oder ins Untermenü legen. Die überarbeitete Kreis-Vorschau im Layout-Editor unterstützt direktes Verschieben per Maus, freies Platzieren von „Schließen“ auf Seite 1, Anheften einzelner Kacheln sowie das Ausblenden nicht benötigter Einträge.
+- **Spiele-Launcher in der App-Suche**: Installierte Spiele von Steam, Epic Games, GOG Galaxy, Ubisoft Connect und Windows Store/Xbox sowie Spiele-Verknüpfungen erscheinen direkt in der App-Suche und lassen sich aus dem Rad starten.
+- **Vordergrund-Verhalten konfigurierbar**: Unter „Verhalten & Steuerung“ gibt es die neue Option „Rad immer im Vordergrund“. Standardmäßig bleibt das Rad nur im Vordergrund, solange Omega Orbit aktiv ist, und tritt bei Screenshots oder beim Wechsel in andere Fenster automatisch zurück.
+
+#### Geändert
+- **Besser lesbare Kacheln & eigenes Konverter-Symbol**: Symbole und Beschriftungen im Rad sind standardmäßig größer dargestellt; der Konverter nutzt durchgehend ein eigenes Symbol ohne den bisherigen Format-Untertitel unter der Kachel.
+- **Treffsichere App-Suche & klare Seitenanzeige**: Exakte Programmtreffer (z. B. der Steam-Client selbst) erscheinen in der App-Suche vor einzelnen Spielen; die Seitenanzeige in der Rad-Mitte zeigt bei mehreren Seiten auch in Apps, Lesezeichen und Dateien zuverlässig die aktuelle Seite an.
+
+#### Behoben
+- **Echte Spiele- und Verknüpfungssymbole**: Spiele und Desktop-Verknüpfungen zeigen im Rad und in der App-Suche ihre echten Symbole statt generischer Datei-Icons; bereits falsch zwischengespeicherte Symbole werden automatisch erneuert.
+- **Dateidialoge & Screenshots wieder sichtbar**: Dateiauswahl-Fenster (im Rad und im Konverter) sowie Screenshot-Werkzeuge erscheinen sauber vor dem Rad; das Öffnen einer Dateiauswahl schließt das Rad dabei auch im Tastendruck-Modus nicht mehr vorzeitig.
+- **Ordnerlöschen & aktives Konvertieren**: Beim Löschen eines Ordners im Rad bleiben die enthaltenen Einträge erhalten und wandern zurück auf die Hauptebene; laufende Konvertierungen werden beim Beenden geschützt berücksichtigt.
+
+## [0.10.0] - 2026-11-13
+
+#### Hinzugefügt
+- **Konverter-Plugin**: Neues eigenständiges Plugin zum lokalen Umwandeln von Video-, Audio- und Bilddateien direkt über das Orbit-Rad – komplett offline auf dem eigenen Rechner.
+- **54 Werkzeuge im Arbeitsbereich**: Zusätzliches Werkzeug-Fenster für Videoschnitt, Skalierung, Komprimierung, Wasserzeichen, Zusammenfügen und Teilen, Audiobearbeitung, Bildoptimierung, PDF-/Office-Dokumente mit Texterkennung (OCR für Deutsch und Englisch) sowie Archive.
+- **Archivieren direkt im Rad**: Dateien ohne direktes Konvertierungsziel lassen sich im Rad unmittelbar als ZIP-, 7-Zip- oder (bei installiertem WinRAR) als RAR-Archiv packen; ein verständlicher Hinweis unter dem Rad erklärt den Vorgang.
+- **Zielformate pro Kategorie konfigurierbar**: Unter „Plugins → Konverter“ lassen sich die angebotenen Zielformate für Video, Audio und Bild individuell ein- und ausblenden.
+- **Automatische GPU- und Systembeschleunigung**: H.264-Videoumwandlungen nutzen automatisch verfügbare Hardware-Encoder (NVIDIA NVENC, Intel Quick Sync, AMD AMF), AAC-Audio nutzt unter Windows Media Foundation – jeweils mit automatischem CPU-Fallback bei Bedarf.
+
+#### Geändert
+- **Klare Rad-Steuerung & Seitenblättern**: Im Konverter-Rad liegen die Standardtasten fest oben im Norden (Schließen, Zurück, Abbrechen, Werkzeuge) und die Zielformate unten im Süden mit seitenweisem Blättern gemäß der eingestellten Kachelanzahl (`4`, `6` oder `8`).
+- **Runde Ablagefläche & automatisches Zurücksetzen**: Das Drop-Feld nutzt den runden Innenbereich des Rads und setzt geladene Dateien beim Abschluss, Abbrechen oder Verlassen des Konverters automatisch zurück.
+- **Fortschritt auf dem Regenbogenrand**: Laufende Umwandlungen zeigen Status und gemessenen Fortschritt direkt auf dem Regenbogenrand des Rads; laufende Aufnahmen und Updates bleiben geschützt.
+
 ## [0.9.1] - 2026-11-10
 
 #### Geändert
