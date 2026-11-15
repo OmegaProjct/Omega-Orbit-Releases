@@ -7,6 +7,7 @@
   <a href="https://orbit.omegaprojects.de">Website</a> ·
   <a href="https://orbit.omegaprojects.de/download">Download</a> ·
   <a href="https://omegaprojects.de/projects/omega-orbit">Omega Projects</a> ·
+  <a href="https://omegaprojects.de/contact">Kontakt &amp; Feedback</a> ·
   <a href="#deutsch">Deutsch</a> · <a href="#english">English</a> ·
   <a href="CHANGELOG.md">Changelog DE</a> · <a href="CHANGELOG.en.md">Changelog EN</a>
 </p>
