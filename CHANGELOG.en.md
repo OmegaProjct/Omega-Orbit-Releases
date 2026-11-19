@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.10.2] - 2026-11-19
+
+#### Added
+- **Shrink or split to target size (Audio & Video)**: The Converter workspace now includes a target-size tool for both audio and video where you enter a desired file size in megabytes. If lowering quality down to your chosen minimum cannot fit everything into a single file, Omega Orbit automatically splits it into even parts within your target size; you can also choose split-only in original quality or shrink-only into a single file.
+- **Automatic file handover into Tools**: Dropping a file onto the Converter wheel and opening "Tools" now jumps straight to the matching category with that file preloaded.
+
+#### Fixed
+- **Clean application shutdown without lingering background process**: Exiting Omega Orbit (especially after automatically saving an active recording) now terminates the background process cleanly so Converter, Tools, and Radio remain available on the next launch.
+- **Localized runtime errors & visible feedback for "Tools"**: Converter runtime errors now appear in plain localized language instead of raw English messages in the German UI, and failures when opening the Tools window display an explicit notice instead of failing silently.
+
 ## [0.10.1] - 2026-11-14
 
 #### Added

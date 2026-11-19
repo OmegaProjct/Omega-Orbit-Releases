@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.10.2] - 2026-11-19
+
+#### Hinzugefügt
+- **Auf Zielgröße verkleinern oder aufteilen (Audio & Video)**: Im Konverter-Werkzeugfenster lässt sich für Audio- und Videodateien jetzt eine gewünschte Zielgröße in Megabyte festlegen. Reicht eine Qualitätsreduzierung bis zur gewählten Mindestqualität für eine einzelne Datei nicht aus, teilt Omega Orbit die Datei automatisch in gleich große Teile innerhalb der Wunschgröße auf; alternativ sind reines Aufteilen in Originalqualität oder reines Verkleinern in eine Datei wählbar.
+- **Automatische Dateiübernahme in die Werkzeuge**: Wird eine Datei im Konverter-Rad abgelegt und anschließend „Werkzeuge“ geöffnet, springt der Arbeitsbereich direkt in die passende Kategorie und übernimmt die Datei automatisch.
+
+#### Behoben
+- **Sauberes Beenden ohne hängenbleibenden Hintergrundprozess**: Beim Schließen von Omega Orbit (insbesondere nach dem automatischen Speichern einer laufenden Aufnahme) beendet sich der Hintergrundprozess jetzt vollständig, sodass Konverter, Werkzeuge und Radio beim nächsten Start zuverlässig aktiv bleiben.
+- **Verständliche deutsche Fehlermeldungen & sichtbare Rückmeldung bei „Werkzeuge“**: Laufzeitfehler im Konverter erscheinen im deutschen Interface nicht mehr auf Englisch, sondern mit klaren deutschen Hinweisen; schlägt das Öffnen der Werkzeuge fehl, wird dies nun sichtbar gemeldet statt still ignoriert.
+
 ## [0.10.1] - 2026-11-14
 
 #### Hinzugefügt
