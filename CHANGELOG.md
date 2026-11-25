@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.10.3] - 2026-11-25
+
+#### Behoben
+- **Keine irreführende Warnung nach erfolgreicher Videoaufnahme**: Nach einer regulär gespeicherten Aufnahme erscheint keine Warnmeldung über aufbewahrte Quellsegmente mehr. Bei Einzelaufnahmen und aktivierter Aufräum-Option werden Zwischendateien direkt still entfernt; im Notfall (z. B. bei abgebrochenem oder fehlgeschlagenem Speichern) bleibt der Wiederherstellungshinweis erhalten.
+- **Verständliche Meldung bei Problemen mit der Kameravorschau**: Wenn eine Kamera (z. B. virtuelle Kameras wie NVIDIA Broadcast) eine gewählte Auflösung oder Bildrate ablehnt oder belegt ist, zeigt Omega Orbit jetzt einen klaren deutschen Hinweis statt langer technischer Protokollzeilen.
+
 ## [0.10.2] - 2026-11-19
 
 #### Hinzugefügt

@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.10.3] - 2026-11-25
+
+#### Fixed
+- **No misleading warning after a successful video recording**: Completing and saving a recording normally no longer displays a recovery-path warning dialog. For single recordings with source cleanup enabled, temporary source files are cleaned up silently; if saving fails or is cancelled, the recovery notice is still shown.
+- **Clear message when the camera preview cannot start**: When a camera (including virtual cameras such as NVIDIA Broadcast) rejects the selected resolution or frame rate or is busy, Omega Orbit now displays a clear, concise message instead of raw internal driver log lines.
+
 ## [0.10.2] - 2026-11-19
 
 #### Added
