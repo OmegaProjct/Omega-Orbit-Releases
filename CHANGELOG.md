@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.10.4] - 2026-11-27
+
+#### Hinzugefügt
+- **Unbegrenzte Audioaufnahmen mit Live-Speicherung (MP3, FLAC & WAV)**: Audioaufnahmen sind nicht mehr auf 4 GB bzw. wenige Stunden begrenzt. MP3 und das neue verlustfreie Format FLAC werden direkt während der Aufnahme geschrieben und sind beim Stoppen ohne Wartezeit sofort gespeichert; auch WAV unterstützt jetzt Aufnahmen über 4 GB hinaus.
+- **Stille-Zuschnitt mit Vorher-/Nachher-Bericht**: Wurde bei einer längeren Audioaufnahme viel Stille mitgeschnitten, zeigt Omega Orbit nach dem sicheren Speichern einen übersichtlichen Bericht mit ungeschnittener Länge, entfernbarer Stille und neuer Länge danach. Wahlweise lässt sich nur die Stille am Ende sofort abschneiden oder alle langen Pausen kürzen – standardmäßig als sichere Kopie oder direkt über dem Original (in den Audio-Einstellungen abschaltbar).
+- **Lautlose Erinnerung bei laufender Audioaufnahme**: In den Audio-Einstellungen lässt sich ein Erinnerungsintervall (Aus, alle 30, 60 oder 120 Minuten) festlegen. Die Windows-Benachrichtigung erscheint komplett ohne Hinweiston, sodass kein Störgeräusch in laufende Aufnahmen gelangt; ein Klick öffnet direkt Omega Orbit.
+- **Speicherplatz-Schutz bei langen Aufnahmen**: Fällt der freie Speicherplatz unter 10 GB, erscheint einmalig eine lautlose Warnung. Kurz bevor der Datenträger voll ist (unter 500 MB frei), beendet und sichert Omega Orbit die laufende Aufnahme automatisch sauber.
+
+#### Geändert
+- **MP3 als Standardformat für neue Installationen**: Neue Installationen starten mit dem kompakten, absturzsicheren Live-MP3-Format; bestehende gespeicherte Nutzer-Einstellungen bleiben unverändert erhalten, und zwischen MP3, FLAC und WAV kann jederzeit frei gewechselt werden.
+
+#### Behoben
+- **Keine störenden Hinweistöne während einer Audioaufnahme**: Warnmeldungen während aktiver Audioaufnahmen werden nun lautlos angezeigt, damit Windows-Töne nicht versehentlich mit aufgenommen werden.
+
 ## [0.10.3] - 2026-11-25
 
 #### Behoben

@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.10.4] - 2026-11-27
+
+#### Added
+- **Unlimited audio recordings with live encoding (MP3, FLAC & WAV)**: Audio recordings are no longer capped at 4 GB or a few hours. MP3 and the new lossless FLAC option are encoded live while recording so stopping saves immediately without long conversion waits; WAV now also supports recordings beyond 4 GB.
+- **Silence trimming with a before/after report**: When a longer audio recording captures extended silence, Omega Orbit safely saves the full file first and then offers a clear report showing the uncut duration, how much silence can be removed, and the resulting length. Choose between instant trailing-silence trimming or shortening all long pauses — saved as a copy by default or replacing the original on request (toggleable in Audio settings).
+- **Silent reminders for active audio recordings**: Configure a reminder interval in Audio settings (Off, every 30, 60, or 120 minutes). Windows notifications arrive completely silently so notification chimes never bleed into your recording, and clicking the notification opens Omega Orbit right away.
+- **Low disk space protection during long recordings**: Displays a one-time silent warning when free disk space drops below 10 GB and automatically stops and saves the recording cleanly before the drive runs full (below 500 MB free).
+
+#### Changed
+- **MP3 as the default format for new installations**: Fresh installations default to compact, crash-safe live MP3; existing user settings remain untouched, and you can freely switch between MP3, FLAC, and WAV at any time.
+
+#### Fixed
+- **Silent warnings during active audio recordings**: System warnings shown while an audio recording is running are now displayed silently so Windows alert sounds are not accidentally recorded.
+
 ## [0.10.3] - 2026-11-25
 
 #### Fixed
